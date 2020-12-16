@@ -1,0 +1,421 @@
+
+@-webkit-keyframes monAnimation {
+  0% {
+
+
+    color: rgb(255, 255, 255);
+  }
+  
+  10% {
+    color: purple;
+  }
+  
+  90% {
+    color: rgb(255, 255, 255);
+  }
+  
+  100% {
+    color: rgb(255, 255, 255);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes monAnimation {
+    0% {
+  
+  
+      color: rgb(255, 255, 255);
+    }
+    
+    10% {
+      color: purple;
+    }
+    
+    90% {
+      color: rgb(255, 255, 255);
+    }
+    
+    100% {
+      color: rgb(255, 255, 255);
+        transform: scale(1.1);
+      }
+    }
+    
+  
+
+  
+  /* role*/
+  .role {
+ 
+    
+    
+    -webkit-animation: monAnimation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .role:hover {
+  /*   role */
+     animation-name: monAnimation;
+    -webkit-animation-name: monAnimation;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+
+    
+    animation-direction: reverse;
+    -webkit-animation-direction: reverse;
+  }
+
+
+  
+
+
+  .sal  {
+   
+    border: 0;
+    
+    -webkit-animation: monAnimation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: monAnimation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  .sal :hover {
+  /*   animation: monAnimation 1s infinite alternate; */
+    animation-name: monAnimation;
+    -webkit-animation-name: monAnimation;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    
+    animation-iteration-count: reverse;
+    -webkit-animation-iteration-count: reverse;
+    
+    animation-direction: reverse;
+    -webkit-animation-direction: reverse;
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/*  les troi produit  */
+
+.pl1{
+	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate backwards;
+	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate backwards;
+}
+
+
+
+
+          @-webkit-keyframes scale-up-center {
+            0% {
+              -webkit-transform: scale(0.5);
+                      transform: scale(0.5);
+            }
+            100% {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+          }
+          @keyframes scale-up-center {
+            0% {
+              -webkit-transform: scale(0.5);
+                      transform: scale(0.5);
+            }
+            100% {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+          }
+
+
+
+          .pl2{
+            -webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate backwards;
+                    animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate backwards;
+          }
+          
+          
+          
+          
+          
+          
+            
+          
+                    @-webkit-keyframes scale-up-center {
+                      0% {
+                        -webkit-transform: scale(0.5);
+                                transform: scale(0.5);
+                      }
+                      100% {
+                        -webkit-transform: scale(1);
+                                transform: scale(1);
+                      }
+                    }
+                    @keyframes scale-up-center {
+                      0% {
+                        -webkit-transform: scale(0.5);
+                                transform: scale(0.5);
+                      }
+                      100% {
+                        -webkit-transform: scale(1);
+                                transform: scale(1);
+                      }
+                    }
+
+
+
+
+                    .pl3{
+                      -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate backwards;
+                              animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate backwards;
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                      
+                    
+                              @-webkit-keyframes scale-up-center {
+                                0% {
+                                  -webkit-transform: scale(0.5);
+                                          transform: scale(0.5);
+                                }
+                                100% {
+                                  -webkit-transform: scale(1);
+                                          transform: scale(1);
+                                }
+                              }
+                              @keyframes scale-up-center {
+                                0% {
+                                  -webkit-transform: scale(0.5);
+                                          transform: scale(0.5);
+                                }
+                                100% {
+                                  -webkit-transform: scale(1);
+                                          transform: scale(1);
+                                }
+                              }
+          /*  la fin des trois produit*/
+          /*  planbtn*/
+         
+
+@-webkit-keyframes plan {
+  0% {
+
+    background-color: rgb(221, 70, 193);
+  }
+  
+  10% {
+    color: rgb(128, 0, 94);
+  }
+  
+  90% {
+    background-color: rgb(218, 23, 23);
+  }
+  
+  100% {
+   background-color:rgba(163,17,21,0.64);
+      transform: scale(1.1);
+    }
+  }
+  
+
+  @-webkit-keyframes  scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+  
+  
+  .plan-btn {
+    padding: 10px 20px;
+    border: 0;
+    font-size: 1em;
+    -webkit-animation: plan 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: plan 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+  
+  .plan-btn:hover {
+  
+
+    -webkit-animation-name: plan;
+    animation-name: plan;
+    -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ 
+
+ -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+   animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+/*  la fin de planbtn*/
+/*  a propos*/
+
+.koch{
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.koch {
+  padding: 15px 30px;
+  border: 0;
+  font-size: 1.5em;
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+    .koch:hover {
+/*   animation: monAnimation 1s infinite alternate; */
+  animation-name: Animatio;
+  -webkit-animation-name: Animatio;
+  
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+}
+/* Créer une animation */
+
+
+/*hola content*/
+        
+
+@-webkit-keyframes plan {
+  0% {
+
+    background-color: rgb(209, 127, 127);
+  }
+  
+  10% {
+    color: rgb(220, 78, 78);
+  }
+  
+  90% {
+    background-color: rgb(214, 16, 16);
+  }
+  
+  100% {
+   background-color:rgba(255, 0, 8, 0.64);
+      transform: scale(1.1);
+    }
+  }
+  
+
+  @-webkit-keyframes  scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+  
+  
+  .hola {
+    padding: 10px 20px;
+    border: 0;
+    font-size: 1em;
+    -webkit-animation: plan 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: plan 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+  
+  .hola:hover {
+  
+
+    -webkit-animation-name: plan;
+    animation-name: plan;
+    -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ 
+
+ -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+   animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  /*fin hola content*/
