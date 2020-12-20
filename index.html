@@ -42,14 +42,14 @@
 
   
  
-      <a href="#chaines" class="header-logo">CHAINES</a>
+      <a href="tutriel.html" class="header-logo">TUTRIEL</a>
     
 
       <nav class="header-menu">
         
       <a href="#" class="header-logo">ACCUEIL</a>
         
-          <a href="mailto:iptv21m3u@gmail.com" class="header-logo">iptv21m3u@gmail.com</a>
+          <a href="mailto:relaxinos.help@gmail.com" class="header-logo">relaxinos.help@gmail.com</a>
         
         
         
@@ -95,7 +95,7 @@
             <button     class="con1"  onclick="window.location.href = 'https://api.whatsapp.com/send?phone=+33627670923/';">whatsapp</button>
            
               
-             <a class="con" href = "mailto:iptv21m3u@gmail.com">  Email</a>
+             <a class="con" href = "mailto:relaxinos.help@gmail.com">  Email</a>
           </div>
             </div>
                 </div>
@@ -391,21 +391,104 @@
         </div>
  </div>
 <br>
-<h1 id="chaines" class="subtitle heading-site">LA LISTE DES CHAINES </h1>
 
-<!--iframe-->
+<body onload="switchTo('visite1');">
+  <select  class="ifra" id="selection" onchange="switchTo(this.value);">
+    <option value="visite1">CANADA</option>
+    <option value="visite2">FRANCE</option>
+    <option value="visite3">ARABE</option>
+    <option value="visite4">ESPAGNE</option>
+    <option value="visite5">ALLEMAND</option>
+    <option value="visite6">ENGLISH</option>
+    <option value="visite7">ITALY</option>
+    <option value="visite8">PORTUGAL</option>
+    <option value="visite9">BELGIQUE</option>
+    <option value="visite10">TURK</option>
+   
+  </select>
+  <div id="description"></div>
+  <iframe class="hmd" width="90%"
+  height="600px"
+  seamless id="monIFrame" src="chaines/canada.html"> </iframe>
+  <script type="text/javascript">
+    function switchTo(value) {
+      var src = "";
+      var txt = "";
+      switch (value) {
+        case "visite1":
+          src = "chaines/canada.html";  // Mettre ici la page à afficher pour la 1ère visite
+         txt =  " Qualité HD, FULL HD et 4K";
+          break;
+        case "visite2":
+          src = "chaines/france.html";  // Mettre ici la page à afficher pour la 2ème visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+        case "visite3":
+          src = "chaines/arabe.html";  // Mettre ici la page à afficher pour la 3ème visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite4":
+          src = "chaines/espagne.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite5":
+          src = "chaines/allemand.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite6":
+          src = "chaines/english.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite7":
+          src = "chaines/italy.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite8":
+          src = "chaines/portugal.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite9":
+          src = "chaines/belgique.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite10":
+          src = "chaines/turk.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+        default: break;
+      }
+      document.getElementById("monIFrame").src = src;
+      document.getElementById("description").innerText = txt;
+    }
+        </script>
 
-<div class="hmd">
 
-    <iframe id="iframe_thingy"
 
-    width="90%"
-    height="600px"
-    seamless
-    src="chaines.html">
-</iframe>
 
-</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
