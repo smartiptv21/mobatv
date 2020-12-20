@@ -2,6 +2,18 @@
 GLOBAL
 */
 
+
+/* iframe */
+
+    .ifra {
+        text-align: center;
+        padding: 1% 26%;
+        margin: -5% 15%;
+        color: rgb(0, 0, 0);
+        background-color: rgb(235, 221, 221);
+    }
+/*  fine des ifram*/
+
 .subtitle {
     color: red !important;
 }
