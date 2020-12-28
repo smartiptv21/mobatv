@@ -17,6 +17,9 @@
         <link rel="stylesheet" href="css/animation.css">
        
  <!--css-->
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
  <!--font-->
  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
  <script defer scr="https://use.fontawesone.com/releases/v5.0.6/js/all.js"></script>
@@ -31,9 +34,49 @@
     <!--body--> 
 <body>
  <zoba class="zoba">   
-<!--header-->
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #dc3545!important;">
+  <div class="container">
+    <a class="navbar-brand" href="#">IPTVm3u</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#abonn">ABNEMMENT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#chaii">CHAINES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://api.whatsapp.com/send?phone=+33627670923">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="tutriel.html">TUTRIEL</a>
+        </li>
+        
+ 
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+<!--header--
 <div class="block">
   <header class="header">
+    <!----
    <a href="#abonn" class="header-logo">ABONNEMENT</a>
    
    <a href="https://api.whatsapp.com/send?phone=+33627670923" class="header-logo">CONTACT</a>
@@ -42,7 +85,7 @@
 
   
  
-      <a href="tutriel.html" class="header-logo">TUTRIEL</a>
+      <a href="#chaii" class="header-logo">CHAINES</a>
     
 
       <nav class="header-menu">
@@ -56,7 +99,7 @@
       </nav>
 
 
-          
+    -->
 
 
            
@@ -166,7 +209,7 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
         </div>
           
-        <div class="pricing-wrapper ">
+        <div id="abonn" class="pricing-wrapper ">
           <div class="pricing">
             <div class="plan popular pl1  ">
                
@@ -189,7 +232,7 @@
               <a class="plan-btn" href="http://www.iptvamos.com/en/custome?pr=10.99&ti=Planone">Acheter maintenant </a>  
             </div>
             
-              <div id="abonn" class="plan popular pl2  ">
+              <div  class="plan popular pl2  ">
                 <span>Le plus populaire</span>
                 <h3>3 mois</h3>
                 <div class="price ">€19.99 </div>
@@ -309,7 +352,7 @@
             <div class="chain"> 
              
            <a class="films" href="films.html">Films</a>
-           <a class="chaines" href="#chaines">Chaines</a>  
+           <a class="chaines" href="#chaii">Chaines</a>  
            <a  class="series" href="series.html">Series</a>     
             
               </div>
@@ -390,22 +433,105 @@
           </div>
         </div>
  </div>
-<br>
-<h1 id="chaines" class="subtitle heading-site">LA LISTE DES CHAINES </h1>
+<br id="chaii">
 
-<!--iframe-->
+<body  onload="switchTo('visite1');">
+  <select  class="ifra" id="selection" onchange="switchTo(this.value);">
+    <option value="visite1">CANADA</option>
+    <option value="visite2">FRANCE</option>
+    <option value="visite3">ARABE</option>
+    <option value="visite4">ESPAGNE</option>
+    <option value="visite5">ALLEMAND</option>
+    <option value="visite6">ENGLISH</option>
+    <option value="visite7">ITALY</option>
+    <option value="visite8">PORTUGAL</option>
+    <option value="visite9">BELGIQUE</option>
+    <option value="visite10">TURK</option>
+   
+  </select>
+  <div id="description"></div>
+  <iframe class="hmd" width="90%"
+  height="600px"
+  seamless id="monIFrame" src="chaines/canada.html"> </iframe>
+  <script type="text/javascript">
+    function switchTo(value) {
+      var src = "";
+      var txt = "";
+      switch (value) {
+        case "visite1":
+          src = "chaines/canada.html";  // Mettre ici la page à afficher pour la 1ère visite
+         txt =  " Qualité HD, FULL HD et 4K";
+          break;
+        case "visite2":
+          src = "chaines/france.html";  // Mettre ici la page à afficher pour la 2ème visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+        case "visite3":
+          src = "chaines/arabe.html";  // Mettre ici la page à afficher pour la 3ème visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite4":
+          src = "chaines/espagne.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite5":
+          src = "chaines/allemand.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite6":
+          src = "chaines/english.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite7":
+          src = "chaines/italy.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite8":
+          src = "chaines/portugal.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite9":
+          src = "chaines/belgique.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+          case "visite10":
+          src = "chaines/turk.html";  // Mettre ici la page à afficher pour la 1ère visite
+          txt = "Qualité HD, FULL HD et 4K";
+          break;
+        default: break;
+      }
+      document.getElementById("monIFrame").src = src;
+      document.getElementById("description").innerText = txt;
+    }
+        </script>
 
-<div class="hmd">
 
-    <iframe id="iframe_thingy"
 
-    width="90%"
-    height="600px"
-    seamless
-    src="test.html">
-</iframe>
 
-</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
