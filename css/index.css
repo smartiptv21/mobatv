@@ -2,7 +2,9 @@
 GLOBAL
 */
 
-
+body{
+    text-decoration: none;
+}
 /* iframe */
 
 .ifra {
@@ -125,7 +127,7 @@ font-weight:bold;
 overflow:hidden; clear:both; margin-top:35px; margin-bottom:10px; padding-bottom:0;
 }
 .hola{
-background: rgb(163, 17, 22); ;
+background: #c11111;
 border: none;
 color: white;
 padding: 12px 32px !important;
@@ -209,6 +211,7 @@ justify-content: center;
     background-color: #fff;
     padding: 30PX 0%;
     margin: 15px;
+    text-decoration: none;
     border-radius: 5px;
     text-align: center;
     transition: 0.3s;
@@ -247,6 +250,7 @@ color: #e02b20!important;
 }
 .pricing .plan .plan-btn {
     display: inherit;
+    text-decoration: none;
     border: none;
     width: 87%;
     MARGIN: 6%;
@@ -292,7 +296,7 @@ text-align: center;
 }
 .role {
 
-background-color:  #e02b20!important;
+background-color:  #00c9ff !important;
 color: #ffffff!important;
 text-align: center;
 
@@ -671,7 +675,10 @@ font-size: 16px;
 .series {background-color: #008CBA;} /* Blue */
 .films {background-color: #f44336;} /* Red */
 
-
+.ma{
+    text-decoration: none;
+    color: #008CBA;
+}
 
 
 
@@ -763,7 +770,7 @@ font-size: 16px;
     margin: 2% 3% !important;
 }
 .hola{
-    background-color: #c11111b1 ;
+    background-color: #c11111 ;
     border: none;
     color: white;
     padding:11px 11px !important;
@@ -1056,7 +1063,7 @@ padding: -1% 22%!important;
 
 @media (max-width: 707px) and (max-width: 959px) { 
 .hola{
-    background-color: #c11111b1 ;
+    background-color: #c11111 ;
     border: none;
     color: white;
     padding:11px 11px !important;
