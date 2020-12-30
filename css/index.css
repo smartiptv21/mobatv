@@ -127,7 +127,7 @@ font-weight:bold;
 overflow:hidden; clear:both; margin-top:35px; margin-bottom:10px; padding-bottom:0;
 }
 .hola{
-background: #ffbb3f;
+background: #c11111;
 border: none;
 color: white;
 padding: 12px 32px !important;
@@ -256,7 +256,7 @@ color: #e02b20!important;
     MARGIN: 6%;
     padding: 7px 8px;
     margin-top: 1rem;
-   background-color:#ffbb3f;
+    background-color:#ffbb3f;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -637,7 +637,7 @@ margin: 0;
     margin: 2% -2%;
 }
 .con{
-background-color: #00f815; /* Green */
+background-color: red; /* Green */
 border: none;
 color: white;
 padding: 15px 43px;
@@ -648,7 +648,7 @@ font-size: 16px;
 margin: 7%;
 }
 .con1{
-background-color: #000cfa; /* Green */
+background-color: #00c9ff !important; /* Green */
 border: none;
 color: white;
 padding: 15px 24px;
@@ -671,9 +671,9 @@ text-decoration: none;
 display: inline-block;
 font-size: 16px;
 }
-.chaines {background-color: #4CAF50;} /* Green */
-.series {background-color: #008CBA;} /* Blue */
-.films {background-color: #f44336;} /* Red */
+.chaines {background-color: #ffc107;} /* Green */
+.series {background-color:#00c9ff;} /* Blue */
+.films {background-color: red;} /* Red */
 
 .ma{
     text-decoration: none;
