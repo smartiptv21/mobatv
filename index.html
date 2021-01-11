@@ -461,6 +461,7 @@
 <body  onload="switchTo('visite1');">
   <select  class="ifra" id="selection" onchange="switchTo(this.value);">
     <option value="visite1">CANADA</option>
+    <option value="visite100">UNITED STATES  </option>
     <option value="visite2">FRANCE</option>
     <option value="visite3">ARABE</option>
     <option value="visite4">ESPAGNE</option>
@@ -469,7 +470,16 @@
     <option value="visite7">ITALY</option>
     <option value="visite8">PORTUGAL</option>
     <option value="visite9">BELGIQUE</option>
-    <option value="visite10">TURK</option>
+    <option value="visite101">24/7</option>
+   <option value="visite10">TURK</option>
+   <option value="visite11">UNITED KINGDOM</option>
+    <option value="visite12">RUSSIE  </option>
+    <option value="visite13">ADULT</option>
+    <option value="visite14">AUSTRALIE</option>
+    <option value="visite15">INDONESIE</option>
+    <option value="visite16">THAILANDE</option>
+    <option value="visite17">ALB</option>
+
    
   </select>
   <div id="description"></div>
@@ -484,6 +494,11 @@
         case "visite1":
           src = "chaines/canada.html";  // Mettre ici la page à afficher pour la 1ère visite
            
+          break;
+          
+        case "visite100":
+          src = "chaines/unitesS.html";  // Mettre ici la page à afficher pour la 3ème visite
+      
           break;
         case "visite2":
           src = "chaines/france.html";  // Mettre ici la page à afficher pour la 2ème visite
@@ -517,16 +532,60 @@
           src = "chaines/belgique.html";  // Mettre ici la page à afficher pour la 1ère visite
       
           break;
+          
+          case "visite101":
+          src = "chaines/7.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+          
           case "visite10":
           src = "chaines/turk.html";  // Mettre ici la page à afficher pour la 1ère visite
         
           break;
+          
+          case "visite11":
+          src = "chaines/United kingdom.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+          
+          case "visite12":
+          src = "chaines/Russie.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+          
+          case "visite13":
+          src = "chaines/adult.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+          
+          case "visite14":
+          src = "chaines/Australie.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+          
+          case "visite15":
+          src = "chaines/Indonésie.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+          case "visite16":
+          src = "chaines/Thaïlande.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+
+          case "visite17":
+          src = "chaines/alb.html";  // Mettre ici la page à afficher pour la 1ère visite
+        
+          break;
+
+
+
         default: break;
       }
       document.getElementById("monIFrame").src = src;
       document.getElementById("description").innerText = txt;
     }
         </script>
+
 
 
 
