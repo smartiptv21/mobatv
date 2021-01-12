@@ -10,10 +10,12 @@ body{
 .ifra {
     text-align: center;
     padding: 1% 26%;
-    margin: 0% 15%;
+    margin: 8% 15%;
+    
     color: rgb(0, 0, 0);
     background-color: #00c9ff ;
 }
+
 /*  fine des ifram*/
 
 .subtitle {
@@ -403,7 +405,11 @@ cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
-.dg-popup .modal-content  {
+
+    .ifra {
+        text-align: center;
+        padding: 1% 10 !important;}
+    .dg-popup .modal-content  {
   margin:5px;
   
 }
@@ -690,6 +696,9 @@ font-size: 16px;
 
 @media (max-width:415px) and(max-width: 737px){
 
+    .ifra {
+        text-align: center;
+        padding: 1% 10% !important ;}
 .taile{
     display: none !important;
     color: red;
@@ -709,7 +718,9 @@ font-size: 16px;
 {  */
 
 @media (max-width: 322px) and(max-width: 570px)
-{
+{ .ifra {
+    text-align: center;
+    padding: 1% 10% !important ;}
    /* popup px*/
    .popup .close-btn {
     cursor: pointer;
@@ -767,7 +778,11 @@ font-size: 16px;
 {  */
 
 @media screen and(max-width: 5OOpx)  {
-.ZBI{
+    .ifra {
+        text-align: center;
+        padding: 1% 10% !important ;}
+
+    .ZBI{
     margin: 2% 3% !important;
 }
 .hola{
@@ -918,7 +933,10 @@ top: 100%;
 {  */
 
 @media (max-width: 400px) and (max-width: 812px){
-.banner .banner-content {
+    .ifra {
+        text-align: center;
+        padding: 1% 10% !important ;}
+    .banner .banner-content {
     float: none;
     height: auto;
     top: 12% !important;
@@ -945,7 +963,10 @@ top: 100%;
 
 
     @media (prefers-reduced-motion: no-preference){
-    :root {
+        .ifra {
+            text-align: center;
+            padding: 1% 10% !important ;}
+        .root {
         padding: 4px;
         scroll-behavior: smooth;
         MARGIN: -10px;
@@ -1063,7 +1084,10 @@ padding: -1% 22%!important;
 
 
 @media (max-width: 707px) and (max-width: 959px) { 
-.hola{
+    .ifra {
+        text-align: center;
+        padding: 1% 10% !important ;}
+    .hola{
     background-color: #c11111 ;
     border: none;
     color: white;
@@ -1184,6 +1208,7 @@ margin: 2% 3% !important;
 @media (max-width: 768px) and (max-width: 1024px)
 {
 
+
 .hola{
     top: 22%;
     margin: 41%;
@@ -1200,7 +1225,9 @@ margin: 2% !important;
 {  */
 
 @media (max-width:1024px) and (max-width: 1366px)
-
+.ifra {
+    text-align: center;
+    padding: 1% 10% !important ;}
  
 {
     .hola{
@@ -1231,7 +1258,9 @@ margin: 2% !important;
 
 
     @media (max-width: 282px) and (max-width: 660px){
-
+        .ifra {
+            text-align: center;
+            padding: 1% 10% !important ;}
         .chain, .chaines, .films, .series {
             padding: 6px 2px !important;
         }
