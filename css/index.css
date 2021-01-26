@@ -14,12 +14,13 @@ body{
 
 .ifra {
     text-align: center;
-    padding: 1% 26%;
-    margin: 8% 31%;
+    margin: 1px 133px !important;
+    padding: 1% 27% !important;
     
     color: rgb(0, 0, 0);
     background-color: #00c9ff ;
 }
+
 
 /*  fine des ifram*/
 
@@ -413,7 +414,7 @@ cursor: pointer;
 
     .ifra {
         text-align: center;
-        padding: 1% 10 !important;}
+  }
     .dg-popup .modal-content  {
   margin:5px;
   
@@ -703,9 +704,7 @@ font-size: 16px;
     .overlay:after {
         background-color: rgb(255 255 255 / 0%) !important;}
 
-    .ifra {
-        text-align: center;
-        padding: 1% 10% !important ;}
+    
 .taile{
     display: none !important;
     color: red;
@@ -732,8 +731,7 @@ font-size: 16px;
         background-color: rgb(255 255 255 / 0%) !important;}
     .ifra {
     text-align: center;
-    margin: 16px 58px;
-    padding: 2% 11% !important;}
+    }
    /* popup px*/
    .popup .close-btn {
     cursor: pointer;
@@ -797,8 +795,7 @@ font-size: 16px;
         background-color: rgb(255 255 255 / 0%) !important;}
     .ifra {
         text-align: center;
-        margin: 16px 58px !important;
-        padding: 2% 11% !important;}
+   }
 
     .ZBI{
     margin: 2% 3% !important;
@@ -958,8 +955,7 @@ top: 100%;
 
     .ifra {
         text-align: center;
-        margin: 16px 58px !important;
-        padding: 2% 11% !important;}
+       }
     .banner .banner-content {
     float: none;
     height: auto;
@@ -992,8 +988,7 @@ top: 100%;
             background-color: rgb(255 255 255 / 0%) !important;}
         .ifra {
             text-align: center;
-            margin: 16px 58px !important;
-            padding: 2% 11% !important;}
+           }
         .root {
         padding: 4px;
         scroll-behavior: smooth;
@@ -1263,9 +1258,8 @@ margin: 2% !important;
 
 .ifra {
     text-align: center;
-    margin: 16px 58px !important;
-    padding: 2% 11% !important;}
- 
+    margin: 1px 133px !important;
+    padding: 1% 27% !important;}
 
     .hola{
         top: 19%;
@@ -1327,5 +1321,11 @@ margin: 2% !important;
 
 
 
-
-    
+@media (max-width: 644px) and (max-width: 
+722px){
+    .ifra {
+        text-align: center;
+        margin: 8px 30px !important;
+        padding: 1% 26% !important;
+    }
+}
