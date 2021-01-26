@@ -216,27 +216,29 @@
                               }
           /*  la fin des trois produit*/
           /*  planbtn*/
-         
+        
+
 @-webkit-keyframes plan {
   0% {
 
-    background-color: rgb(221, 70, 78);
+    background-color: rgb(70, 90, 221);
   }
   
   10% {
-    color: rgb(128, 0, 122);
+    color: rgb(0, 128, 98)
   }
   
   90% {
-    background-color: rgb(23, 192, 218);
+    background-color: rgb(72, 218, 23);
   }
   
   100% {
-   background-color: #ffbb3f;
+   background-color:gold ;
       transform: scale(1.1);
     }
   }
   
+
   @-webkit-keyframes  scale-in-center {
   0% {
     -webkit-transform: scale(0);
@@ -293,6 +295,177 @@
    animation-iteration-count: infinite;
     animation-direction: alternate;
   }
+
+
+
+
+
+
+  
+@-webkit-keyframes   pri {
+  0% {
+
+    background-color: rgb(70, 90, 221);
+  }
+  
+  10% {
+    color: rgb(0, 128, 98)
+  }
+  
+  90% {
+    background-color: rgb(72, 218, 23);
+  }
+  
+  100% {
+   background-color:gold ;
+      transform: scale(1.1);
+    }
+  }
+  
+
+  @-webkit-keyframes  scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+  
+  
+  .pri {
+    padding: 10px 20px;
+    border: 0;
+    font-size: 1em;
+    -webkit-animation:   pri 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation:   pri 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+  
+  .pri:hover {
+  
+
+    -webkit-animation-name:   pri;
+    animation-name:   pri;
+    -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ 
+
+ -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+   animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+
+
+
+/*btn*/
+
+  
+@-webkit-keyframes plnn {
+  0% {
+
+    background-color: rgb(70, 90, 221);
+  }
+  
+  10% {
+    color: rgb(0, 128, 98)
+  }
+  
+  90% {
+    background-color: rgb(72, 218, 23);
+  }
+  
+  100% {
+   background-color:gold ;
+      transform: scale(1.1);
+    }
+  }
+  
+
+  @-webkit-keyframes  scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+  
+  
+  .plnn{
+    padding: 18px 20px;
+    border: 0;
+    font-size: 1em;
+    -webkit-animation: plnn 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: plnn 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+  
+  .plnn:hover {
+  
+
+    -webkit-animation-name: plan;
+    animation-name: plan;
+    -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ 
+
+ -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+   animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+
+
 /*  la fin de planbtn*/
 /*  a propos*/
 
