@@ -2,6 +2,11 @@
 GLOBAL
 */
 
+.overlay:after {
+    background-color: rgb(255 255 255 / 0%) !important;}
+   
+
+
 body{
     text-decoration: none;
 }
@@ -10,7 +15,7 @@ body{
 .ifra {
     text-align: center;
     padding: 1% 26%;
-    margin: 8% 15%;
+    margin: 8% 31%;
     
     color: rgb(0, 0, 0);
     background-color: #00c9ff ;
@@ -259,7 +264,7 @@ color: #e02b20!important;
     MARGIN: 6%;
     padding: 7px 8px;
     margin-top: 1rem;
-    background-color:#ffbb3f;
+    background-color:gold;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -672,7 +677,7 @@ margin: 7%;
 background-color: #fff;
 border: none;
 color: white;
-padding: 11px 20px;
+padding: 11px 18px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -695,6 +700,8 @@ font-size: 16px;
 
 
 @media (max-width:415px) and(max-width: 737px){
+    .overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
 
     .ifra {
         text-align: center;
@@ -718,9 +725,15 @@ font-size: 16px;
 {  */
 
 @media (max-width: 322px) and(max-width: 570px)
-{ .ifra {
+{
+    
+    
+    .overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
+    .ifra {
     text-align: center;
-    padding: 1% 10% !important ;}
+    margin: 16px 58px;
+    padding: 2% 11% !important;}
    /* popup px*/
    .popup .close-btn {
     cursor: pointer;
@@ -778,9 +791,14 @@ font-size: 16px;
 {  */
 
 @media screen and(max-width: 5OOpx)  {
+
+
+    .overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
     .ifra {
         text-align: center;
-        padding: 1% 10% !important ;}
+        margin: 16px 58px !important;
+        padding: 2% 11% !important;}
 
     .ZBI{
     margin: 2% 3% !important;
@@ -933,9 +951,15 @@ top: 100%;
 {  */
 
 @media (max-width: 400px) and (max-width: 812px){
+    
+
+    .overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
+
     .ifra {
         text-align: center;
-        padding: 1% 10% !important ;}
+        margin: 16px 58px !important;
+        padding: 2% 11% !important;}
     .banner .banner-content {
     float: none;
     height: auto;
@@ -963,9 +987,13 @@ top: 100%;
 
 
     @media (prefers-reduced-motion: no-preference){
+        
+        .overlay:after {
+            background-color: rgb(255 255 255 / 0%) !important;}
         .ifra {
             text-align: center;
-            padding: 1% 10% !important ;}
+            margin: 16px 58px !important;
+            padding: 2% 11% !important;}
         .root {
         padding: 4px;
         scroll-behavior: smooth;
@@ -1084,9 +1112,13 @@ padding: -1% 22%!important;
 
 
 @media (max-width: 707px) and (max-width: 959px) { 
+
+    .overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
     .ifra {
         text-align: center;
-        padding: 1% 10% !important ;}
+        margin: 16px 58px !important;
+        padding: 2% 11% !important;}
     .hola{
     background-color: #c11111 ;
     border: none;
@@ -1208,7 +1240,8 @@ margin: 2% 3% !important;
 @media (max-width: 768px) and (max-width: 1024px)
 {
 
-
+    .overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
 .hola{
     top: 22%;
     margin: 41%;
@@ -1224,12 +1257,16 @@ margin: 2% !important;
 /* @media (max-width:1024px) and (max-width: 1366px)
 {  */
 
-@media (max-width:1024px) and (max-width: 1366px)
+@media (max-width:1024px) and (max-width: 1366px){}
+.overlay:after {
+    background-color: rgb(255 255 255 / 0%) !important;}
+
 .ifra {
     text-align: center;
-    padding: 1% 10% !important ;}
+    margin: 16px 58px !important;
+    padding: 2% 11% !important;}
  
-{
+
     .hola{
         top: 19%;
     }
@@ -1237,7 +1274,7 @@ margin: 2% !important;
        
         padding: 25px 12px ;
        
-}}
+}
 /* @media la fin de (max-width:1024px) and (max-width: 1366px)
 {  */
 
@@ -1245,27 +1282,33 @@ margin: 2% !important;
     @media (max-width:1024px) and (max-width: 1366px)
 
  
-    {
+    {.overlay:after {
+        background-color: rgb(255 255 255 / 0%) !important;}
         
         .hola{
             top: 26%;}
             .chain, .chaines, .films, .series {
        
-                padding: 25px 12px ;    }
+                padding: 10px 9px; ;    }
     
     
     }
 
 
     @media (max-width: 282px) and (max-width: 660px){
+        .overlay:after {
+            background-color: rgb(255 255 255 / 0%) !important;}
         .ifra {
             text-align: center;
-            padding: 1% 10% !important ;}
+            margin: 16px 58px !important;
+            padding: 2% 11% !important;}
         .chain, .chaines, .films, .series {
             padding: 6px 2px !important;
         }
     }
     @media (max-width: 600px) and (max-width: 1024px){
+        .overlay:after {
+            background-color: rgb(255 255 255 / 0%) !important;}
 
         .title.is-1 {
             font-size: 2rem;
